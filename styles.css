@@ -3,23 +3,44 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Raleway', sans-serif;
+    
 
 }
 .seccion{
     height: 100vh;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 .seccion__titulo{
     text-transform: uppercase;
     font-weight: 700;
+    padding-bottom: 5px;
+    position: relative;
+}
+.seccion__titulo:after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -30px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
 }
 header{
     height: 100vh;
 
 }
-#promo{
+#inicio{
     background-image: url("img/lasitud.jpg");
     background-repeat: no-repeat;
     background-position: center;
