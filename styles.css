@@ -1,7 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Raleway', sans-serif;
 
 }
 .seccion{
     height: 100vh;
+}
+.seccion__titulo{
+    text-transform: uppercase;
+}
+#promo{
+    background-image: url("img/lasitud.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
