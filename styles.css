@@ -13,7 +13,7 @@ body{
 }
 .seccion{
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 .seccion__titulo{
     text-transform: uppercase;
@@ -37,6 +37,13 @@ body{
 header{
     height: 100vh;
 
+}
+.dark{
+    background-color: #000;
+}
+
+.navbar__logo{
+    width: 15%;
 }
 #inicio{
     background-image: url("img/lasitud.jpg");

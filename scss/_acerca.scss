@@ -1,0 +1,29 @@
+#acerca{
+    p{
+        margin: 5% 20%
+    }
+    .integrantes{
+        margin: 0 10%;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+        .integrantes__card img{
+            width: 160px;
+            height: 160px;
+            background-color: red;
+            border-radius: 50%;
+
+        }
+        .integrantes__rol{
+            background-color: #000;
+            display: inline-block;
+            color: $blanco;
+            padding: 7px;
+            width: 180px;
+            text-transform: uppercase;
+        }
+        .integrantes__nombre{
+            font-weight: 700;
+            margin: 1.3% 0;
+        }
+    }
+}
