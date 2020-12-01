@@ -1,5 +1,5 @@
 #acerca p {
-  margin: 5% 10%;
+  margin: 5% 20%;
 }
 #acerca .integrantes {
   margin: 0 10%;
@@ -17,7 +17,7 @@
   display: inline-block;
   color: white;
   padding: 7px;
-  width: 150px;
+  width: 180px;
   text-transform: uppercase;
 }
 #acerca .integrantes .integrantes__nombre {
