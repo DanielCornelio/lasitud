@@ -1,0 +1,9 @@
+#contacto{
+    background-color: $gris;
+    color: $blanco;
+
+    .seccion__titulo:after{
+        content: "";
+        background:$blanco;
+    }
+}

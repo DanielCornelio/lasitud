@@ -25,4 +25,13 @@
   margin: 1.3% 0;
 }
 
+#contacto {
+  background-color: #101113;
+  color: white;
+}
+#contacto .seccion__titulo:after {
+  content: "";
+  background: white;
+}
+
 /*# sourceMappingURL=output.css.map */
