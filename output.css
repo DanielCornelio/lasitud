@@ -33,6 +33,38 @@
   content: "";
   background: white;
 }
+#contacto h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4% 0 1.5% 0;
+}
+#contacto form {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+}
+#contacto form .email {
+  width: 35vw;
+  padding: 10px;
+  border: 0px;
+  outline: none;
+  background-color: #212529;
+  color: white;
+}
+#contacto form .subscribir {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  outline: none;
+  position: relative;
+}
+#contacto .contacto__logo {
+  width: 20%;
+}
+#contacto .contacto__logo img {
+  width: 100%;
+}
 
 #musica article {
   margin: 3% 10%;

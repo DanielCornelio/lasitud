@@ -6,4 +6,41 @@
         content: "";
         background:$blanco;
     }
+    h3{
+        text-transform: uppercase;
+        text-align: center;
+        margin: 4% 0 1.5% 0;
+    }
+    form{
+        margin: 0 10%;
+        display: flex;
+        justify-content: center;
+        .email{
+            width: 35vw;
+            padding: 10px;
+            border: 0px;
+            outline: none;
+            background-color: #212529;
+            color:$blanco;
+
+        }
+        .subscribir{
+
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            border: 0px;
+            outline: none;
+            position: relative;
+
+            
+        }
+    }
+
+    .contacto__logo{
+        width: 20%;
+        img{
+            width: 100%;
+        }
+    }
 }
