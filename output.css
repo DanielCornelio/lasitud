@@ -34,4 +34,28 @@
   background: white;
 }
 
+#musica article {
+  margin: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+#musica iframe {
+  display: block;
+  margin-top: 43px;
+}
+#musica .album {
+  width: 380px;
+  height: 380px;
+}
+#musica .album figure figcaption {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#musica .album figure img {
+  width: 100%;
+  border: 2px solid #000;
+}
+
 /*# sourceMappingURL=output.css.map */
