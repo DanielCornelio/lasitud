@@ -59,11 +59,25 @@
   outline: none;
   position: relative;
 }
-#contacto .contacto__logo {
-  width: 20%;
+#contacto .contacto__social {
+  font-size: 45px;
+  vertical-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 20%;
+}
+#contacto .contacto__social span a {
+  text-decoration: none;
+  color: #212529;
+}
+#contacto .contacto__social span a:hover {
+  color: white;
+  transition: 1s;
 }
 #contacto .contacto__logo img {
-  width: 100%;
+  width: 15%;
+  margin: 3% auto;
+  display: block;
 }
 
 #musica article {

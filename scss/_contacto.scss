@@ -37,10 +37,37 @@
         }
     }
 
+
+    .contacto__social{
+         font-size: 45px;
+        vertical-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5% 20%;
+
+        span{
+
+            a{
+                text-decoration: none;
+                color:#212529;
+
+            }
+            a:hover{
+                color:$blanco;
+                transition: 1s;
+            }
+        }
+        
+    }
+    
+    
     .contacto__logo{
-        width: 20%;
+
         img{
-            width: 100%;
+            width: 15%;
+            margin:3% auto;
+            display: block;
+
         }
     }
 }
