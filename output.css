@@ -33,7 +33,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding-top: 130px;
+  padding-top: 138px;
 }
 #contacto .seccion__titulo:after {
   content: "";
