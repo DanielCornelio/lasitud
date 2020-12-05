@@ -1,0 +1,46 @@
+#conciertos {
+    padding-top: 130px;
+
+    .conciertos__item {
+        margin: 5% 0;
+        .tour__date {
+            display: flex;
+            border-bottom: 1px solid #eee;
+            padding: 20px;
+            margin: 3% 10%;
+
+            .date {
+                font-weight: 700;
+                text-transform: uppercase;
+                width: 10%;
+            }
+
+            .presentation {
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .buttons {
+                width: 10%;
+
+                a {
+                    text-decoration: none;
+                    color: $blanco;
+                    background-color: #000;
+                    padding: 10px 20px;
+
+                }
+            }
+        }
+    }
+    .reserva{
+        background-color: #000;
+        color: $blanco;
+        padding: 10px 100px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: 0px;
+        outline: 0px;
+    }
+}

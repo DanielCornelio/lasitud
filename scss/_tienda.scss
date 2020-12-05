@@ -1,0 +1,25 @@
+#tienda{
+    background-color: $bg-gris;
+    padding-top: 130px;
+    
+    .articulos{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: auto;
+        grid-gap: 20px 0;
+        margin: 3% 10%;
+        
+        justify-items: center;
+        // align-items: center;
+
+        .producto{
+            width: 60%;
+            
+
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

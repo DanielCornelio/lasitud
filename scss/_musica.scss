@@ -1,8 +1,12 @@
 #musica{
+    background-color: $bg-gris; 
+    padding-top: 130px;
+
     article{
         margin: 3% 10%;
         display: flex;
         justify-content: space-between;
+       
     }
     iframe{
         display: block;

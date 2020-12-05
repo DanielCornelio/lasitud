@@ -41,13 +41,159 @@ header{
 .dark{
     background-color: #000;
 }
-
-.navbar__logo{
-    width: 15%;
+.menu{
+    display: flex;
 }
 #inicio{
     background-image: url("img/DSC00112.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.flex{
+    display: flex;
+}
+.logo{
+    width: 150px;
+}
+.navbar-brand{
+    width: 50%;
+    margin: 0 0 0 10%;
+}
+#navbarSupportedContent{
+    width: 50%;
+    justify-content: end;
+    margin: 0 10% 0 0;
+
+}
+@media (max-width: 500px) {
+    main{
+        width: 100vw;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        width: 30%;
+        margin: 0;
+    }
+    .navbar-brand{
+        width: 40%;
+        margin: 0px;
+    }
+    #navbarSupportedContent{
+        /* width: 50%; */
+        /* justify-content: end; */
+        margin: 0 0 0 0!important;
+    
+    }
+    #inicio{
+        background-image: url("img/DSC00112.jpg");
+        background-size: cover;
+        width: 100%;
+    }
+    .tour__date{
+        flex-direction: column;
+        /* justify-content: center !important; */
+        align-items: center;
+        width: 100%;
+        padding: 0x !important;
+        margin: 3% 0 !important;
+
+    }
+    .date{
+        width: 100%;
+
+    }
+    .presentation{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .buttons{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .reserva{
+        padding: 10px !important;
+        font-size: 15px;
+        width: 80%;
+        margin: 4% 5%;
+    }
+    
+
+    #musica article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #musica article iframe{
+        display: none;
+    }
+    #musica .album{
+        width: 100%!important;
+    }
+    #musica .album figure{
+        width: 100%;
+        height: 100%;
+        /* margin: 0 10%; */
+
+
+    }
+    #musica .album figure img{ 
+        display: block;
+        width: 100%;
+
+
+    }
+    #acerca p{
+        margin: 5% 10%;
+    }
+    #acerca article.integrantes{
+        grid-template: repeat(5, 1fr) / 1fr;
+    }
+    #tienda article.articulos{
+        margin-top: 40px;
+        grid-template: repeat(4, 1fr) / 1fr;
+
+
+    }
+    #contacto h3{
+        font-size: 16px;
+        margin: 2% 0;
+    }
+    #contacto form{
+        /* width: 100%; */
+        margin: 0 5%;
+        
+    }
+     #contacto form .email{
+                width: 100% !important;
+                font-size: 12px;
+        
+            }
+    #contacto form .subscribir{
+        width: 30%;
+        font-size: 12px;
+
+    }
+    #contacto .contacto__social{
+        font-size: 35px !important;
+        justify-content: space-around !important;
+        margin: 5% 5% !important;
+
+
+
+    }
+
+    #contacto .contacto__logo div{
+        width: 200px !important;
+        margin: 10% 0;
+    }
+    
 }

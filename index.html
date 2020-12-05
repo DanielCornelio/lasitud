@@ -2,182 +2,227 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lasitud</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="output.css">
-    <script src="https://use.fontawesome.com/32db38c652.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lasitud</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="output.css">
+  <script src="https://use.fontawesome.com/32db38c652.js"></script>
 </head>
 
 <body>
-    <main>
-        <header id="inicio" class="">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark dark">
-                <a class="navbar-brand" href="#inicio">
-                  <img class="navbar__logo"
-                    src="img/lasitud_blanco.png"
-                    alt="Logo Lasitud"
-                  />
-                </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
-                </button>
-          
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#conciertos">Conciertos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#musica">Música</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#acerca">Acerca</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#tienda">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contacto">Contato</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        </header>
-        <section id="conciertos" class="text-center seccion">
-            <h2 class="seccion__titulo">Próximos Conciertos</h2>
-            <div class="conciertos__item">
-                <a class="btn btn-primary" data-toggle="collapse" href="#concierto1" role="button"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    INFORMACIÓN
-                </a>
-                <button class="btn btn-primary" type="button">
-                    Comprar Boleto
-                </button>
+  <main>
+    <header id="inicio" class="">
+      <div class="menu">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark dark flex" >
+        <a class="navbar-brand" href="#inicio">
+          <img
+            class="logo"
+            src="img/lasitud_blanco.png"
+            alt="Lasitud"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conciertos">Conciertos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#musica">Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca">Acerca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tienda">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+     
+    </header>
+    <section id="conciertos" class="text-center ">
+      <h2 class="seccion__titulo">Próximos Conciertos</h2>
+      <div class="conciertos__item">
+        <div class="tour__date">
+          <div class="date">
+            15 Jul
+          </div>
+            <div class="presentation">
+              <div class="place">Harris Park</div>
+              <div class="city">London, ON, Canada</div>
             </div>
-            <div class="collapse" id="concierto1">
-                <p class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                    labore wes anderson cred nesciunt sapiente ea proident.
-                </p>
+            <div class="buttons"><a href="#">Tickets</a>
+          </div>
+        </div>
+        <div class="tour__date">
+          <div class="date">
+            15 Jul
+          </div>
+            <div class="presentation">
+              <div class="place">Harris Park</div>
+              <div class="city">London, ON, Canada</div>
             </div>
-            <h4>¿Quieres reservar un concierto privado</h4>
-        </section>
-        <section id="musica" class="text-center seccion">
-            <h2 class="seccion__titulo">Música</h2>
-            <article>
-              <iframe src="https://open.spotify.com/embed/artist/1zQ7Htx1vh0vmCHmxVVG0d" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              <div class="album">
-                <figure>
-                  <figcaption>Albúm Lasitud</figcaption>
-                  <img src="img/portada_lasitud.jpg" alt="Albúm Lasitud">
-                </figure>
-              </div>
-              <div class="album">
-                <figure>
-                  <figcaption>Albúm Fantasma</figcaption>
-                  <img src="img/portada_fantasma.jpg" alt="Albúm Fantasma">
-                </figure>
-              </div>
-            </article>
-        </section>
-        <section id="acerca" class="text-center seccion">
-            <h2 class="seccion__titulo">Acerca de</h2>
-            <p>
-                Lasitud es una banda de Villahermosa, Tabasco, con una propuesta que
-                mezcla la experimentación y estridencia del Shoegaze, las armonías
-                suaves del Dream Pop y la sensibilidad del Post-Rock, obteniendo como
-                resultado un sonido profundo y lleno de texturas.
-            </p>
-            <article class="integrantes">
-              <div class="integrantes__card">
-                <figure>
-                  <img src="img/andres.jpg" alt="andres">
-                </figure>
-                <h5 class="integrantes__rol">GUITARRA</h5>
-                <h5 class="integrantes__nombre">Andres Contreras</h5>
-              </div>
-              <div class="integrantes__card">
-                <figure>
-                  <img src="img/julio.jpg" alt="julio">
-                </figure>
-                <h5 class="integrantes__rol">Guitarra / Voz</h5>
-                <h5 class="integrantes__nombre">Julio Beli</h5>
-              </div>
-              <div class="integrantes__card">
-                <figure>
-                  <img src="img/paola.jpg" alt="paola">
-                </figure>
-                <h5 class="integrantes__rol">Syth / Voz</h5>
-                <h5 class="integrantes__nombre">Paola Gavilla</h5>
-              </div>
-              <div class="integrantes__card">
-                <figure>
-                  <img src="img/jose.jpg" alt="andres">
-                </figure>
-                <h5 class="integrantes__rol">Bateria</h5>
-                <h5 class="integrantes__nombre">Jose Gorrochotegui</h5>
-              </div>
-              <div class="integrantes__card">
-                <figure>
-                  <img src="img/max.JPG" alt="max">
-                </figure>
-                <h5 class="integrantes__rol">Bajo</h5>
-                <h5 class="integrantes__nombre">Max Campos</h5>
-              </div>
-            </article>
-        </section>
-        <section id="tienda" class="text-center seccion">
-            <h2 class="seccion__titulo">Tienda</h2>
-        </section>
-        <section id="contacto" class="text-center seccion">
-            <h2 class="seccion__titulo">Contacto</h2>
-            <h3>Subscribete a nuestro newsletter</h3>
-            <form action="">
-              <input type="text" placeholder="E-MAIL" class="email">
-              <input type="submit" value="SUBSCRIBIR" class="subscribir">
-            </form>
-            <article class="contacto__social">
-              <span><a href="https://www.facebook.com/lasitudoficial" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
-              <span><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
-              <span><a href="https://open.spotify.com/artist/1zQ7Htx1vh0vmCHmxVVG0d?si=RlfogoEOSSuTZyxvQ45Kkw" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></span>
-              <span><a href="https://lasitud.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></span>
-              <span><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
-              <span><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></span>
-            </article>
-              <div class="contacto__logo">
-                <img src="img/lasitud_blanco.png" alt="">
-              </div>
-        </section>
-        <footer></footer>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-    </script>
-    
+            <div class="buttons"><a href="#">Tickets</a>
+          </div>
+        </div>
+        <div class="tour__date">
+          <div class="date">
+            15 Jul
+          </div>
+            <div class="presentation">
+              <div class="place">Harris Park</div>
+              <div class="city">London, ON, Canada</div>
+            </div>
+            <div class="buttons"><a href="#">Tickets</a>
+          </div>
+        </div>
+      </div>
+      <button class="reserva">Reserva un concierto privado</button>
+    </section>
+    <section id="musica" class="text-center ">
+      <h2 class="seccion__titulo">Música</h2>
+      <article>
+        <iframe src="https://open.spotify.com/embed/artist/1zQ7Htx1vh0vmCHmxVVG0d" width="300" height="380"
+          frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="album">
+          <figure>
+            <figcaption>Albúm Lasitud</figcaption>
+            <img src="img/portada_lasitud.jpg" alt="Albúm Lasitud">
+          </figure>
+        </div>
+        <div class="album">
+          <figure>
+            <figcaption>Albúm Fantasma</figcaption>
+            <img src="img/portada_fantasma.jpg" alt="Albúm Fantasma">
+          </figure>
+        </div>
+      </article>
+    </section>
+    <section id="acerca" class="text-center ">
+      <h2 class="seccion__titulo">Acerca de</h2>
+      <p>
+        Lasitud es una banda de Villahermosa, Tabasco, con una propuesta que
+        mezcla la experimentación y estridencia del Shoegaze, las armonías
+        suaves del Dream Pop y la sensibilidad del Post-Rock, obteniendo como
+        resultado un sonido profundo y lleno de texturas.
+      </p>
+      <article class="integrantes">
+        <div class="integrantes__card">
+          <figure>
+            <img src="img/andres.jpg" alt="andres">
+          </figure>
+          <h5 class="integrantes__rol">GUITARRA</h5>
+          <h5 class="integrantes__nombre">Andres Contreras</h5>
+        </div>
+        <div class="integrantes__card">
+          <figure>
+            <img src="img/julio.jpg" alt="julio">
+          </figure>
+          <h5 class="integrantes__rol">Guitarra / Voz</h5>
+          <h5 class="integrantes__nombre">Julio Beli</h5>
+        </div>
+        <div class="integrantes__card">
+          <figure>
+            <img src="img/paola.jpg" alt="paola">
+          </figure>
+          <h5 class="integrantes__rol">Syth / Voz</h5>
+          <h5 class="integrantes__nombre">Paola Gavilla</h5>
+        </div>
+        <div class="integrantes__card">
+          <figure>
+            <img src="img/jose.jpg" alt="andres">
+          </figure>
+          <h5 class="integrantes__rol">Bateria</h5>
+          <h5 class="integrantes__nombre">Jose Gorrochotegui</h5>
+        </div>
+        <div class="integrantes__card">
+          <figure>
+            <img src="img/max.JPG" alt="max">
+          </figure>
+          <h5 class="integrantes__rol">Bajo</h5>
+          <h5 class="integrantes__nombre">Max Campos</h5>
+        </div>
+      </article>
+    </section>
+    <section id="tienda" class="text-center ">
+      <h2 class="seccion__titulo">Tienda</h2>
+      <article class="articulos">
+        <div class="producto">
+          <img src="img/merch-1.jpg" alt="">
+        </div>
+        <div class="producto">
+          <img src="img/merch-1.jpg" alt="">
+        </div>
+        <div class="producto">
+          <img src="img/merch-1.jpg" alt="">
+        </div>
+        <div class="producto">
+          <img src="img/merch-1.jpg" alt="">
+        </div>
+      </article>
+    </section>
+    <section id="contacto" class="text-center ">
+      <h2 class="seccion__titulo">Contacto</h2>
+      <h3>Subscribete a nuestro newsletter</h3>
+      <form action="">
+        <input type="text" placeholder="E-MAIL" class="email">
+        <input type="submit" value="SUBSCRIBIR" class="subscribir">
+      </form>
+      <article class="contacto__social">
+        <span><a href="https://www.facebook.com/lasitudoficial" target="_blank"><i class="fa fa-facebook"
+              aria-hidden="true"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+        <span><a href="https://open.spotify.com/artist/1zQ7Htx1vh0vmCHmxVVG0d?si=RlfogoEOSSuTZyxvQ45Kkw"
+            target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></span>
+        <span><a href="https://lasitud.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp"
+              aria-hidden="true"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></span>
+      </article>
+      <article class="contacto__logo">
+        <div>
+          <img src="img/lasitud_blanco.png" alt="">
+        </div>
+      </article>
+    </section>
+    <!-- <footer></footer> -->
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+  </script>
+
 </body>
 
 </html>
