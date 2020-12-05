@@ -45,10 +45,11 @@ header{
     display: flex;
 }
 #inicio{
-    background-image: url("img/DSC00112.jpg");
+    background-image: url("img/DSC00019-2.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:0 -120px;
     background-size: cover;
+
 }
 
 .flex{
