@@ -89,9 +89,11 @@ header{
     
     }
     #inicio{
-        background-image: url("img/DSC00112.jpg");
+        background-image: url("img/DSC00019-2.jpg");
         background-size: cover;
-        width: 100%;
+        width: 100vw;
+        background-position: center;
+        height: 100vh;
     }
     .tour__date{
         flex-direction: column;
